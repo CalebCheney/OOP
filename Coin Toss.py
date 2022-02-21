@@ -14,6 +14,9 @@ def main():
        for count in range(10):
            my_coin.toss()
            
+           #tampering with code to control output because data attributes are not hidden 
+           #with __ now code cannot be changed by user
+           my_coin.sideup = "Heads"
            # Display the side of the coin that is facing up.
            print('This side is up:', my_coin.get_sideup())
 

@@ -11,3 +11,5 @@ class Student:
         #calculation
     def Reg_date(self, date):
         self.__Student_Class = date
+
+#test

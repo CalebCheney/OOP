@@ -25,4 +25,6 @@ def main():
     print('New model is:', my_phone.get_model())
     print('New price is: ', '$', my_phone.get_retail_price(), sep='')
 
+    #print(my_phone)
+
 main()
